@@ -1,0 +1,221 @@
+@media (min-width:768px){
+    #main-content{
+        display: block;
+    }
+    .home-bar i{
+        display:block;
+    }
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        background-color: rgb(225, 230, 237);
+        padding: 20px
+    }
+    #navbar a{
+        margin-top: 5px;
+    }
+    #navbar{
+        display: none;
+    }
+
+    /* ************** home-section *************** */
+    .home-page{
+        margin-top: 20% !important;
+        margin-left: 8%;
+    }
+    .home-details img{
+       display: none;
+    }
+    .home-details{
+        align-items: center !important;
+    }
+    .thing h1{
+        font-size: 40px;
+        margin: 0;
+        margin-right: 20px;
+    }
+    .thing p{
+        font-size: 25px !important;
+    }
+    .ice-details h1{
+        font-size: 35px !important;
+    }
+    .ice-details h1 span{
+        font-size: 35px !important;
+    }
+    .details img{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* ************* 100% natural product ************ */
+    .natural-product{
+        margin-left: 2%;
+    } 
+    .about-details{
+        background-image: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ice-card{
+        margin-top: 20% !important;
+        width: 290px !important;
+    }
+
+    .ice-made{
+        background-image: none;
+    }
+    .made-details{
+        padding: 10px 20px;
+       margin: 0;
+    }
+    
+    .made-details img{
+        margin-left:0;
+        height: 240px;
+    }
+    .made-details p{
+       width: 460px;
+       font-size: 18px;
+    }
+    .made-trick{
+        flex-wrap: wrap;
+    }
+    .made-about-3{
+        margin-top: 30px;
+    }
+    .content img{
+       display: none;
+    }
+    .footer {
+        margin-left: 80px;
+    }
+    .home-make {
+        margin: 0;
+        padding: 10px 30px;
+    }
+    #contact h4{
+        padding:10px;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    /* ************* about-pages-section *********** */
+    .about-us-banner img{
+        height: 250px;
+        margin-top: 17% !important;
+    }
+    .banner-details{
+        margin-top: 17% !important;
+    }
+    .banner-details p{
+        width: 430px;
+        font-size: 18px;
+    }
+    .about-us-details p{
+        font-size: 19px;
+    }
+    .about-us-details img{
+        height: 250px;
+        width: 250px;
+    }
+    .contact-us {
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        gap: 5px;
+        padding-bottom: 0;
+    }
+
+    /* **************** how its made pages section *********** */
+    .front, .back{
+        width: 250px;
+    }
+    .flip-container{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .front,
+    .back{
+    rotate: -5deg;
+    }
+    .made-img img{
+        width: 350px;
+        margin-top: 30%;
+        margin-left: -90px;
+    }
+    .ice-made-contact h1{
+        margin-left: -120px;
+        font-size: 30px;
+    }
+    .ice-made-contact h2{
+        margin-left: -90px;
+    }
+    .ice-made-contact a{
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    .bg-details {
+        display: none;
+    }
+    .ice-cream-flavour-1 h1{
+        font-size: 30px !important;
+    }
+
+
+    /* ************* our product pages section ************** */
+
+    #products{
+        background-repeat: repeat;
+    }
+    .product-about h1{
+        margin-top: 50px;
+    }
+    .product-review{
+      display: none;
+    }
+    .trending-items{
+        display: grid;
+        grid-template-columns: repeat(1,500px);
+    }
+    .products-item, #read-more{
+        display: grid;
+        grid-template-columns: repeat(2,290px);
+    }
+    #read-more{
+        display: none;
+    }
+    #contact{
+        padding: 0;
+    }
+    #read-more{
+        gap: 70px;
+    }
+    .contact-details{
+        background-color: transparent;
+    }
+    .contact-about i{
+        background-color: gainsboro;
+        color: rgb(29, 167, 182);
+    }
+    .about-licence h4{
+        padding: 10px;
+        font-size: 18px;
+    }
+
+
+    /************** cart-pages-section *********** */
+    .cart-data h2{
+        margin-left:4% !important;
+    }
+
+    /* ************ details pages section /************ */
+    .ice-data h2{
+        margin-left: 20px;
+        font-size: 40px !important;
+        color: crimson;
+    }
+}

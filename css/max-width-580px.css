@@ -1,0 +1,402 @@
+@media  (max-width:580px) {
+    #loader img{
+        height: 200px;
+        width: 300px;
+      } 
+    #main-content{
+        display: block;
+    }
+    .home-bar i{
+        display:block;
+    }
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        background-color: rgb(225, 230, 237);
+        padding: 20px
+    }
+    #navbar a{
+        margin-top: 5px;
+    }
+    #navbar{
+        display: none;
+    }
+    /* <!-- ***********home secction effects ********** --> */
+
+    #home{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .home-page{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        margin-top: 150px !important;
+    }
+   
+    .details img{
+       height: 200px;
+       width: 200px;
+       padding-left: 10px;
+    }
+    .details p{
+        padding-right: 30px;
+        font-size: 18px;
+    }
+    .home-img img{
+       height: 450px;
+       margin-top: 50px;
+    }
+    .home-details img{
+        height: 350px;
+    }
+    .home-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:0;
+        margin-top: 30px;
+    }
+    .thing h1{
+        font-size: 60px;
+    }
+    .thing p:nth-child(2){
+        margin: 0;
+    }
+    .details p{
+        width: 260px;
+        gap: 20px;
+    }
+
+    /* ***********natural-product secction effects**********  */
+
+    .natural-product{
+        margin: 0 !important;
+        margin-top: 10% !important;
+    }
+    .about-details{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        background-image: url(../images/bg-one.png);
+        background-repeat: repeat;
+        width: 100vh;
+    }
+    .ice-card{
+        width: 250px;
+        height: 340px;
+        margin-top: 23%;
+    
+    }
+    .card-img{
+        height: 240px;
+        width: 130px;
+        position: absolute;
+        top: -45%;
+        right: -2px;
+    }
+    .natural-heading{
+        width: 100vh;
+    }
+    .footer{
+        width: 100vh;
+    }
+
+    /* ***********ice-made secction effects********** */
+
+    .made-details{
+       gap: 10px;
+    }
+    .ice-made{
+        margin-top: 80px;
+        background-size: 100vw;
+    }
+    .ice-made h2{
+        font-size: 30px;
+    }
+    .made-details img{
+      height: 200px;
+    }
+    .ice-about p{
+        width: 80%;
+        font-size: 18px;
+    }
+    #moreText{
+        display: none;
+    }
+  
+    #made-tricks{
+     flex-direction: column;
+     width: fit-content;
+     margin: 1%  auto !important;
+     margin-top:8% !important;
+    }
+    .made-about{
+        margin-top: 30px;
+    }
+    .cafe-contact{
+        flex-direction: column;
+    }
+    .cafe-details{
+        margin-top: 20px;
+    }
+    .contact-us h3{
+        margin-left: 20px;
+    }
+    .contact h4{
+        margin: 20px 30px;
+    }
+    .review{
+        margin: 10px 50px !important;
+        font-size: 18px !important;
+    }
+    .contact-us i {
+        font-size: 20px;
+        padding: 10px;
+        height: 40px;
+        width: 40px;
+    }
+    .contact-us p{
+        font-size: 22px;
+        margin-left: 20px !important;
+    }
+    .ice-make h1 {
+        font-size: 25px;
+    }
+    .ice-make h2{
+        font-size: 25px;
+        width: 300px;
+    }
+    .home-make{
+        margin: 0;
+        padding: 0 20px;
+    }
+    #contact h4{
+        font-size: 18px;
+        padding:0;
+        padding-right: 40px;
+        padding-bottom: 15px;
+    }
+    .contact-details-1{
+        margin-right: 20px !important;
+    }
+
+
+    /* **************** about-us-pages style effect *************** */
+    
+    .about-us-banner{
+      gap: 20px;
+    }
+    .about-us-banner img{
+        height: 180px;
+        margin-top: 25% !important;
+    }
+    .about-us-banner p{
+        width:330px ;
+        font-size:18px;
+    }
+    .banner-details{
+        margin-top: 25% !important;
+    }
+    .moredata{
+        display: none;
+    }
+   
+    .ice-cream-flavour-1 h1{
+        font-size: 25px;
+    }
+    .about-us-details img{
+        height: 150px;
+        width: 150px;
+    }
+    .about-us-details p{
+        font-size: 18px;
+    }
+    .about-more-details{
+        display: none;
+    }
+    .contact-us{
+      display: grid;
+      grid-template-columns: repeat(2,200px) !important;
+      justify-content: center;
+      margin-right: 90px;
+    }
+    .contact-details{
+        width: 250px;
+    }
+    .contact-details h1{
+        font-size: 20px !important;
+    }
+    .contact-details p{
+        font-size: 18px !important;
+    }
+    .contact-details p span{
+        display: none;
+    }
+    .contact-data i{
+        margin-left:10px;
+        font-size: 18px;
+        padding: 10px;
+        height: 35px;
+        width: 35px;
+    }
+    .contact-data p{
+        font-size: 19px;
+        margin: 0 !important;
+    }
+    .about-licence h4{
+        font-size: 18px !important;
+    }
+
+
+    /* ************* How made section *********** */
+
+    .flip-container {
+        display: none;
+    }
+    .bg-details{
+        margin: 0 ;
+        padding: 10px 18px;
+        margin-top: 30px;
+    }
+    .bg-details h1{
+        font-size: 35px;
+        margin: 0;
+    }
+    .bg-details h2{
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .bg-details p{
+        font-size: 19px;
+        text-align: start;
+    }
+    #ice-made-recipe h1{
+        font-size: 28px;
+    }
+    #ice-made-recipe h2{
+        font-size: 28px;
+    }
+    .ice-cream-flavour-1 h1{
+        font-size: 24px !important;
+    }
+    .ice-cream-flavour-1{
+        margin:0 15px;
+        padding: 20px;
+    }
+   #moredetails{
+      margin: 0 10px !important;
+   }
+      .float {
+        float: left;
+        clear: both;
+        display: block;
+        width: 280px;
+        margin: 0;
+      }
+      .made-img{
+        display: none;
+      }
+
+
+      /* ********** our product details section ********* */
+      #products{
+        background-repeat: repeat;
+      }
+      .product-about{
+        margin-top: 0   ;
+      }
+      .product-bg-details{
+        display: block;
+      }
+      .product-about p {
+        margin-top: 50px;
+      }
+      .product-review{
+        margin-left: 80px;
+      }
+      .trending h3 {
+        margin-top: 20px;
+      }
+      .trending-items{
+        grid-template-columns: repeat(1 ,480px);
+      }
+      .products-item{
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+        margin: 0 30px;
+      }
+      #read-more{
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+      }
+      #read-more{
+        display: none;
+      }
+
+      .products-item img{
+        width: 200px;
+        height: 200px;
+        margin-left: 25px;
+      }
+      
+      .contact-bg{
+        height: 200px;
+      }
+      #contact{
+        padding: 0;
+        padding-top: 30px;
+      }
+      #contact h3{
+        margin: 0;
+        font-size: 20px;
+      }
+      .contact-data{
+        padding: 0;
+        margin: 0;
+      }
+      .contact-details{
+        margin-left: 13%;
+        padding: 0;
+        gap: 0;
+        background-color: transparent;
+      }
+      .contact-about i{
+        background-color: rgb(168, 164, 164);
+        font-size: 35px;
+        padding: 25px;
+      }
+      .contact-about{
+        margin-left: 27px;
+      }
+      .about-licence h4{
+        padding: 5px 10px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+
+      /* *********** contact-section ********* */
+
+      .contact-data{
+        margin-left: -20px !important;
+      }
+      .row input{
+        margin-top: 15px;
+      }
+
+      /* ********** location page section ********** */
+     .location-info iframe {
+        height: 300px;
+        width: 400px;
+     }
+
+    }
