@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart</title>
+
+  <link rel="stylesheet" href="css/our-product.css">
+  <link rel="stylesheet" href="css/max-width-580px.css">
+    <link rel="stylesheet" href="css/max-width-768px.css">
+    <!-- *************** bootstrap css effect *************** -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css
+">
+
+<!-- *************** bootstrap js effect *************** -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="m-5 cart-data">
+
+  <h2 style="font-family: 'Times New Roman', Times, serif;" class="fw-bold">Shopping Cart</h2>
+  <img id="productImage" src="" alt="Product Image" width="200"><br>
+  <p><strong>Item:</strong> <span id="itemName"></span></p>
+  <p><strong>Price:</strong> $<span id="itemPrice"></span></p>
+  
+  <a href="our-products.html"><button class="btn btn-danger">Go Back</button></a>
+  <button class="btn btn-success"  onclick="showSuccessDialog()">Buy Now</button>
+
+
+  <div id="dialogBox">
+    ✅ Your order was successful!
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+
+    // Get values from URL
+    const name = params.get('item') || 'Unknown Item';
+    const price = params.get('price') || '0.00';
+    const img = params.get('img') || '';
+
+    // Set them in the cart page
+    document.getElementById('itemName').textContent = name;
+    document.getElementById('itemPrice').textContent = price;
+    document.getElementById('productImage').src = img;
+    document.getElementById('productImage').alt = name;
+  </script>
+
+   <script src="min.js/main.js"></script>
+
+</body>
+</html>

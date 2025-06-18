@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ice-cream live project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/min-width-360px.css">
+    <link rel="stylesheet" href="css/max-width-580px.css">
+    <link rel="stylesheet" href="css/max-width-768px.css">
+    <link rel="stylesheet" href="css/min-width-992px.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400..700&family=Emblema+One&family=Lobster&family=Oleo+Script:wght@400;700&family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Pacifico&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+<!-- *************** bootstrap css effect *************** -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css
+">
+
+<!-- *************** bootstrap js effect *************** -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+
+    <!-- ***************** ice-cream loader*************** -->
+        <div id="loader">
+               <img src="images/loader-img-1.gif" alt="Loading...">
+        </div>
+
+<section id="content" style="display: none;" >
+  <section id="main-content">
+
+     <!-- ***********navbar secction effects********** -->
+     
+     <span class="menubar d-flex justify-content-between me-5 align-items-center">
+            <img src="images/main-logo.png" alt="">
+             <div class="home-bar">
+                 <i onclick="toggleNavbar()" class="fa-solid fa-bars fs-1"></i>
+             </div>
+     </span>
+        <div class="navbar" id="navbar">
+            <a class="me-4" href="index.html">Home</a>
+            <a class="me-4"  href="about-us.html">About us</a>
+            <a class="me-4" href="how-its-made.html">How it's made?</a>
+            <a class="me-4" href="our-products.html">Our products</a>
+            <a class="me-4" href="contact.html">Contact</a>
+            
+            <span><a href="order-item.html"><button type="menu" class="btn btn-danger" style="  font-family: 'Times New Roman', Times, serif; font-weight: 600; font-size:18px;">Buy now <i class="fa-solid fa-arrow-right"></i></button></a></span>
+        </div>
+
+   </section>  
+    <!-- ***********home secction effects ********** -->
+
+    <section id="home" class="d-flex justify-content-center align-items-center">
+
+        <div class="home-page" style="margin-top: 12%;">
+            <div class="ice-details">
+                <h1 class="fs-1 fw-bold" style="font-family:Emblema One">ICE CREAM  <br> MADE WITH <br> <span>PASSION</span></h1>
+
+              <button class="btn btn-success fs-5" style="  font-family: 'Times New Roman', Times, serif; font-weight: 600; font-size:18px;" id="button">Products <i class="fa-solid fa-arrow-right ms-2"></i></button>
+              
+              <a href="how-its-made.html"> <button class="btn btn-success fs-5" style="  font-family: 'Times New Roman', Times, serif; font-weight: 600; font-size:18px;">How it's made? <i class="fa-solid fa-arrow-right"></i></button></a>
+             
+            </div>
+
+            <!-- *************** show the product *************** -->
+           
+            <div class="product-info" id="product-info">
+
+                <section id="product-details">
+                    <h1>100% MILK PRODUCTION</h1>
+                    <div class="products-item">
+                         <img src="images/chocolate-ice-2.png" alt="" data-aos="fade-down" data-aos-duration="2000">
+                         <img src="images/rose-ice.png" alt="" data-aos="fade-up" data-aos-duration="2000">
+                         <img src="images/our-card-one.png" alt="" data-aos="fade-down" data-aos-duration="2000">
+                         <img src="images/milk-ice.png" alt="" data-aos="fade-up" data-aos-duration="2000">
+                         <img src="images/milkshake.png" alt="" data-aos="fade-down" data-aos-duration="2000">
+                         <img src="images/banner-pink-cone.png" alt="" data-aos="fade-up" data-aos-duration="2000">
+                         <img src="images/mix-ice.png" alt="" data-aos="fade-down" data-aos-duration="2000">
+                         <img src="images/shake-img.png" alt="" data-aos="fade-up" data-aos-duration="2000">
+                         <img src="images/product-img-1.jpg" alt="" data-aos="fade-down" data-aos-duration="2000"> 
+                         <img src="images/product-img-2.jpg" alt="" data-aos="fade-up" data-aos-duration="2000">
+                         <img src="images/product-img-3.png" alt="" data-aos="fade-down" data-aos-duration="2000">
+                         <img src="images/product-img-4.png" alt="" data-aos="fade-up" data-aos-duration="2000">
+                     </div>
+               </section>
+            </div>
+
+          <div class="details d-flex mt-0" id="details-2"> 
+              <img src="images/banner-pink-cone.png" alt="" class="mt-3">
+              <p class="mt-5 fw-normal fs-5" style="font-family: Georgia, 'Times New Roman', Times, serif;  width: 350px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio cum sunt reiciendis fugiat iste necessitatibus? Enim beatae labore magnam obcaecati voluptatibus molestias cupiditate nostrum.</p>
+          </div>
+
+        </div>
+            <div class="home-details d-flex justify-content-center align-items-end">
+                <div class="details d-flex mt-0" id="details-1"> 
+                    <img src="images/banner-pink-cone.png" alt="" class="mt-3">
+                    <p class="mt-5 fw-normal fs-5" style="font-family: Georgia, 'Times New Roman', Times, serif;  width: 350px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio cum sunt reiciendis fugiat iste necessitatibus? Enim beatae labore magnam obcaecati voluptatibus molestias cupiditate nostrum.</p>
+                </div>
+                    <img src="images/banner-big-cone.png" alt="">
+                <div class="thing ms-5">
+                    <h1 class="m-0 p-0 text-danger">16</h1>
+                    <p class="fw-bold fs-1 m-0 p-0" style="font-family: 'Times New Roman', Times, serif">cafes</p>
+                    
+                    <h1 class="m-0 p-0 text-danger">23</h1>
+                    <p class="fw-bold fs-1 m-0 p-0" style="font-family: 'Times New Roman', Times, serif">food trucks</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- ***********natural-product secction effects********** -->
+    
+    <section class="natural-product text-center" style="margin-top:50px;">
+        <h2 data-aos="fade-up" data-aos-duration="3000" class="natural-heading">100% NATURAL</h2>
+        <h1 data-aos="fade-down" data-aos-duration="3000" class="natural-heading">PRODUCTS</h1>
+        
+        <div class="about-details">
+            <div class="ice-card"  data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/banner-pink-cone.png" alt="" class="card-img">
+                <h2>ICE-CREAM</h2>
+                <img src="images/dots.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum ullam id tenetur similique quod odio.</p>
+            </div>
+            
+            <div class="ice-card" data-aos="fade-down" data-aos-duration="2000">
+                <img src="images/shake-img.png" alt="" class="card-img">
+                <h2>ICE-COFFEE</h2>
+                <img src="images/dots.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum ullam id tenetur similique quod odio.</p>
+            </div>
+            
+            <div class="ice-card" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/milkshake.png" alt="" class="card-img">
+                <h2>MILK SHAKES</h2>
+                <img src="images/dots.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorum ullam id tenetur similique quod odio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***********ice-made secction effects********** -->
+
+    <section class="ice-made">
+        <h2 data-aos="fade-up" data-aos-duration="3000">TRADITION AND LOVE</h2>
+        <h1 data-aos="fade-down" data-aos-duration="3000">HOW IT'S MADE</h1>
+
+        <div class="made-details mt-4 d-flex  justify-content-center align-items-center" id="made-details">
+            <img src="images/milkshake.png" alt="">
+            
+            <div class="ice-about">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate laudantium nisi nam, similique, libero aliquid eum eaque vero doloribus tenetur consequatur, sunt temporibus commodi</p>
+    
+                <div  id="moreText">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum fugit facere incidunt enim sunt alias quasi repellendus dolorem excepturi consequuntur, dolorum hic natus provident tenetur eligendi, odit ex nesciunt labore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores incidunt consequuntur quaerat! Deleniti laudantium hic quae.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="made-trick d-flex align-items-center ms-5 mt-3" id="made-tricks">
+            <div class="made-about ms-4">
+                <img src="images/sagittis-felis-sec-two-img-one.png" alt="">
+                <h1>721</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis mollitia eum earum quibusdam ab tenetur.</p>
+            </div>
+            
+            <div class="made-about ms-4">
+                <img src="images/sagittis-felis-sec-two-three.png" alt="">
+                <h1>16kg</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis mollitia eum earum quibusdam ab tenetur.</p>
+            </div>
+
+            <div class="made-about made-about-3 ms-4">
+                <img src="images/sagittis-felis-sec-two-two.png" alt="">
+                <h1>84</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis mollitia eum earum quibusdam ab tenetur.</p>
+            </div>
+        </div>
+    </section>
+
+     <!-- **************ice-cream content section************ -->
+     
+     <section class="content">
+         <img src="images/icecream2-home.png" alt="">
+        </section>
+
+        <!-- **************footer section effect************ -->
+
+        <section class="footer">
+            <img src="images/person-img.png" alt="">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quas eligendi earum excepturi veniam itaque a repudiandae dolor, doloribus consectetur iusto placeat nobis mollitia ea illum! Fuga quae laudantium facilis!</p>
+            
+            <img src="images/dots.png" alt="">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 600;">Emily,Los Angeles</h3>
+            
+            <div class="cafe-contact">
+                <div class="cafe-details">
+                    <h3>CAFE</h3>
+                    <h2>Chicago</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, unde.</p>
+                    <hr>
+                    <h3>Monday - Friday</h3>
+                    <h5>06:00 AM - 10:00 PM</h5>
+                    
+                    <h3>Saturday - Sunday</h3>
+                    <h5>08:00 AM - 08:00 PM</h5>
+                    <hr>
+                    <h4>+63(0) 382 132 285</h4>
+                    <h4>baroda143@gmail.com</h4>
+                </div>
+
+                <div class="cafe-details">
+                    <h3>CAFE</h3>
+                    <h2>America</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, unde.</p>
+                    <hr>
+                    <h3>Monday - Friday</h3>
+                    <h5>06:00 AM - 10:00 PM</h5>
+                    
+                    <h3>Saturday - Sunday</h3>
+                    <h5>08:00 AM - 08:00 PM</h5>
+                    <hr>
+                    <h4>+63(0) 382 132 285</h4>
+                    <h4>baroda143@gmail.com</h4>
+                </div>
+
+                <div class="cafe-details">
+                    <h3>CAFE</h3>
+                    <h2>Australia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, unde.</p>
+                    <hr>
+                    <h3>Monday - Friday</h3>
+                    <h5>06:00 AM - 10:00 PM</h5>
+                    
+                    <h3>Saturday - Sunday</h3>
+                    <h5>08:00 AM - 08:00 PM</h5>
+                    <hr>
+                    <h4>+63(0) 382 132 285</h4>
+                    <h4>baroda143@gmail.com</h4>
+                </div>
+            </div>
+
+           <a href="location.html">
+            <button type="button" class="btn btn-danger fw-bold">Our locations <i class="fa-solid fa-arrow-right"></i></button>
+           </a>
+           <a href="our-products.html"> <button type="button" class="btn btn-danger fw-bold">Franchise <i class="fa-solid fa-arrow-right"></i></button></a>
+        </section>
+
+        <!-- /* *****************contact section effect*************** */ -->
+
+        <section id="contact">
+            <div class="home-make">
+                <div class="ice-make">
+                    <h2>HOME MADE ICE-CREAM MADE</h2>
+                    <h1>WITH PASSION</h1>
+                </div>
+                <div class="contact-data contact-details-1">
+                    <a href="https://twitter.com/i/flow/signup"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+
+                     <p class="ms-4">Feel free to contact <br><span>+61(0) 358 254 478</span></p>
+                </div>
+            </div> 
+            <hr>
+            <h4><i class="fa-solid fa-copyright"></i> 2025 Designing By <span>Baroliya_Rahul</span> | All Right Reserved | <span> powered by B & R Pvt. Ltd.</span></h4>
+        </section>
+    </section>
+</section>
+
+            <!-- *************aos animation************ -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+
+            <!--************** all js called*********** -->
+            <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+            <script type="text/javascript" src="min.js/min-jquery.js"></script>
+            <script src="min.js/main.js"></script>
+
+            <!-- <script src="js/main.js"></script> -->
+            <script src="min.js/cycle.min.js"></script>
+            
+
+        <!-- ************** bootstrap script ************* -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+
+    </body>
+</html>

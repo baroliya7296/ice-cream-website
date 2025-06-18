@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <link rel="stylesheet" href="css/our-product.css">
+    <link rel="stylesheet" href="css/min-width-360px.css">
+    <link rel="stylesheet" href="css/max-width-580px.css">
+    <link rel="stylesheet" href="css/max-width-768px.css">
+    <link rel="stylesheet" href="css/min-width-992px.css">
+    <link rel="stylesheet" href="css/gray.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Emblema+One&family=Gravitas+One&family=Lilita+One&family=Lobster&family=Oleo+Script:wght@400;700&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
+    <!-- *************** bootstrap css effect *************** -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css
+">
+
+<!-- *************** bootstrap js effect *************** -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+    
+    <section id="main-content">
+        
+        <!-- ***********navbar secction effects********** -->
+            
+            <span class="menubar d-flex justify-content-between me-5 align-items-center">
+                   <img src="images/main-logo.png" alt="">
+                    <div class="home-bar">
+                        <i onclick="toggleNavbar()" class="fa-solid fa-bars fs-1"></i>
+                    </div>
+            </span>
+               <div class="navbar" id="navbar">
+                <a class="me-4" href="index.html">Home</a>
+                <a class="me-4"  href="about-us.html">About us</a>
+                <a class="me-4" href="how-its-made.html">How it's made?</a>
+                <a class="me-4" href="our-products.html">Our products</a>
+                <a class="me-4" href="contact.html">Contact</a>
+                   
+                   <span><a href="order-item.html"><button type="menu" class="btn btn-danger" style="  font-family: 'Times New Roman', Times, serif; font-weight: 600; font-size:18px;">Buy now <i class="fa-solid fa-arrow-right"></i></button></a></span>
+               </div>
+       
+       </section> 
+
+<section id="products">
+
+        <!-- ******************our-products-banner******************* -->
+         <div class="product-bg-details">
+            <div class="product-about">
+                <h1>Red Flower <br> Ice-cream</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ut repellendus, enim mollitia maxime tenetur commodi dicta. Neque, fugiat quas.</p>
+
+                <a href="order-item.html">
+                    <button class="btn-2">Order Now</button>
+                </a>
+                <a href="table-number.html">
+                    <button class="btn-2">Book Table</button>
+                </a>
+            </div>
+
+                <div class="product-review">
+                    <div class="person-details">
+                        <img src="images/person-img.png" alt="">
+                        <div class="product-customer">
+                            <h3>Anushka sharma </h3>
+                            <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. A, enim.</p>
+                </div>
+         </div>
+         <div class="trending">
+            <h3>Trending <i class="fa-solid fa-fire"></i></h3>
+        </div>
+        
+        <div id="dialogBox">
+            ✅ Your order was successful!
+          </div>
+
+           <div class="trending-items">
+                 <div class="trending-details">
+                     <img src="images/contact-us-img-one.png" alt="">
+                     <div class="item-price-details">
+                         <h1>Banana Soft Cream</h1>
+                         <p>Order Type:-</p>
+                         <button  onclick="showSuccessDialog()">On table</button>
+                         <button  onclick="showSuccessDialog()">Delivery</button>
+                         <h2>Rs.180/-</h2>
+                     </div>
+                 </div>
+     
+                 <div class="trending-details">
+                     <img src="images/mix-ice.png" alt="">
+                     <div class="item-price-details">
+                         <h1>Mix Flavour Cream</h1>
+                         <p>Order Type:-</p>
+                         <button onclick="showSuccessDialog()">On table</button>
+                         <button onclick="showSuccessDialog()">Delivery</button>
+                         <h2>Rs.270/-</h2>
+                     </div>
+                 </div>
+     
+                 <div class="trending-details">
+                     <img src="images/milkshake.png" alt="">
+                     <div class="item-price-details">
+                         <h1>Choco Ice Cream</h1>
+                         <p>Order Type:-</p>
+                         <button onclick="showSuccessDialog()">On table</button>
+                         <button onclick="showSuccessDialog()">Delivery</button>
+                         <h2>Rs.150/-</h2>
+                     </div>
+                 </div>
+     
+                 <div class="trending-details">
+                     <img src="images/shake-img.png" alt="">
+                     <div class="item-price-details">
+                         <h1>Milk Shake Cream</h1>
+                         <p>Order Type:-</p>
+                         <button onclick="showSuccessDialog()">On table</button>
+                         <button onclick="showSuccessDialog()">Delivery</button>
+                         <h2>Rs.110/-</h2>
+                     </div>
+                 </div> 
+           </div>
+
+    </section>
+
+    <section id="product-details">
+        <h1>100% MILK PRODUCTION</h1>
+        <div class="products-item">
+            <div class="ice-details bg-body-secondary m-0 gallery">
+                <img  style="cursor: pointer;" onclick="kholoNayaPage('images/chocolate-ice-2.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')" src="images/chocolate-ice-2.png" alt="">
+
+                <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                    <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                    <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                    <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                    <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/chocolate-ice-2.png')"></i></span></p>  
+                </div>
+            </div>
+
+            <div class="ice-details bg-body-secondary m-0">
+             <img src="images/our-card-one.png" alt="" onclick="kholoNayaPage('images/our-card-one.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')" >
+                <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                    <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                    <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                    <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                    <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/our-card-one.png')"></i></span></p>  
+                </div>
+            </div>
+
+            <div class="ice-details bg-body-secondary m-0">
+             <img src="images/rose-ice.png" alt=""  onclick="kholoNayaPage('images/rose-ice.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                    <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                    <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                    <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                    <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/rose-ice.png')"></i></span></p>  
+                </div>
+            </div>
+
+            <div class="ice-details bg-body-secondary m-0">
+             <img src="images/milk-ice.png" alt=""  onclick="kholoNayaPage('images/milk-ice.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                    <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                    <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                    <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                    <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/milk-ice.png')"></i></span></p>  
+                </div>
+            </div>
+             
+             <div id="read-more">
+
+                <div class="ice-details bg-body-secondary m-0 mt-4">
+                   <img src="images/milkshake.png" alt="" onclick="kholoNayaPage('images/milkshake.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                       <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                           <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                           <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                           <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                           <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/milkshake.png')"></i></span></p>  
+                       </div>
+                </div>
+
+                <div class="ice-details bg-body-secondary m-0 mt-4">
+                 <img src="images/banner-pink-cone.png" alt="" onclick="kholoNayaPage('images/banner-pink-cone.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                        <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                            <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                            <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                            <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                            <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/banner-pink-cone.png')"></i></span></p>  
+                        </div>
+                 </div>
+                <div class="ice-details bg-body-secondary m-0 mt-4">
+                 <img src="images/banner-pink-cone.png" alt="" onclick="kholoNayaPage('images/banner-pink-cone.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                        <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                            <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                            <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                            <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                            <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/banner-pink-cone.png')"></i></span></p>  
+                        </div>
+                 </div>
+                <div class="ice-details bg-body-secondary m-0 mt-4">
+                    <img src="images/shake-img.png" alt="" onclick="kholoNayaPage('images/shake-img.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                        <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                            <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                            <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                            <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                            <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/shake-img.png')"></i></span></p>  
+                        </div>
+                 </div>
+                <div class="ice-details bg-body-secondary m-0 mt-4">
+                    <img src="images/product-img-1.jpg" alt="" onclick="kholoNayaPage('images/product-img-1.jpg', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')"> 
+                        <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                            <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                            <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                            <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                            <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/product-img-1.jpg')"></i></span></p>  
+                        </div>
+                 </div>
+                <div class="ice-details bg-body-secondary m-0 mt-4">
+                    <img src="images/product-img-2.jpg" alt="" onclick="kholoNayaPage('images/product-img-2.jpg', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                        <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                            <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                            <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                            <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                            <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/product-img-2.jpg')"></i></span></p>  
+                        </div>
+                 </div>
+                <div class="ice-details bg-body-secondary m-0 mt-4">
+                    <img src="images/product-img-3.png" alt="" onclick="kholoNayaPage('images/product-img-3.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                        <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                            <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                            <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                            <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                            <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/product-img-3.png')"></i></span></p>  
+                        </div>
+                 </div>
+                <div class="ice-details bg-body-secondary m-0 mt-4">
+                 <img src="images/product-img-4.png" alt="" onclick="kholoNayaPage('images/product-img-4.png', 'Classic Vanila', 'Kwality Walls Butterscotch is a crunchilicious and creamy delight for pleasure seekers looking for pure, guilt-free indulgence, filled with the goodness of real cashews. Its rich, creamy taste will keep you craving for more till the very last bite and after.')">
+                        <div class="ice-price mt-3 ps-3 pe-3 pb-3">
+                            <p class="fs-4 fw-bolder m-0">Classic Vanila <i class="fa-solid fa-star fw-bold text-warning ms-4"style="font-size: 14px;"><span class="text-dark" style="font-family: Tagesschrift system-ui;">4.9/5</span></i></p>
+                            <p class="m-0 fw-bolder fs-4">Ice-Cream</p>
+                            <p class="fs-5 text-secondary">Creamy vanilla ice cream <br> topped with cherry.</p>
+                            <p class="fs-4 fw-bold text-danger m-0">$4.99 <span class="text-white bg-primary p-2 rounded-circle fs-5" style="margin-left: 50%;"><i class="fa-solid fa-cart-shopping" onclick="addToCart('Classic Vanila', '$25.5', 'images/product-img-4.png')"></i></span></p>  
+                        </div>
+                 </div>
+
+                </div>
+        
+            </div>
+            <button type="button" class="btn btn-danger fw-bold ps-4 pe-4 text-center m-5 mt-2" id="showproduct" onclick="toggleProduct()">Show More Products</button>
+        </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p class="contact-data">Any questions or remarks? Just write us a massage!</p>
+
+        <form action="welcome-page.html" id="frm">
+
+           <div class="contact-form">
+                <div class="contact-email">
+                    <p>1.Email</p>
+                    <input type="email" placeholder="Enter email address" class="form-control" data-bvalidator="required,email">
+                </div>
+                <div class="contact-name">
+                    <p>2.Name</p>
+                    <input type="text" placeholder="Enter your Name" class="form-control" data-bvalidator="required,alpha">
+                </div>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <div class="contact-bg">
+            <div class="contact-details">
+                <div class="contact-about">
+                    <a href="about-us.html"><i class="fa-solid fa-person-running"></i></a>
+                    <h3>ABOUT US</h3>
+                    <hp>100% pure milk</p>
+                </div>
+
+                <div class="contact-about">
+                    <a href="contact.html"><i class="fa-solid fa-phone-volume"></i></a>
+                    <h3>PHONE (LANDLINE)</h3>
+                    <p>+91-6352241598</p>
+                    <p>+91-6546589762</p>
+                </div>
+
+                <div class="contact-about">
+                    <a href="location.html"><i class="fa-solid fa-location-dot"></i></a>
+                    <h3> OFFICE LOCATION</h3>
+                    <p>Near Kalal chowk Babra, Amreli</p>
+                </div>
+            </div>
+        </div>
+   </section>
+
+
+        <!-- ******************copyright details section************ -->
+            <div class="about-licence">
+                <h4><i class="fa-solid fa-copyright"></i> 2025 Designing By <span>Baroliya_Rahul</span> | All Right Reserved | <span> powered by B & R Pvt. Ltd.</span></h4>
+            </div>
+
+
+     <!-- **************all javascript called************* -->
+
+<!-- call all js here -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<!-- applied jquery b validator plugins -->
+<script src="min.js/jquery-bvalidator.js"></script>
+<script src="min.js/default.js"></script>
+<script src="min.js/gary.js"></script>
+
+<!-- *********form validator********** -->
+
+<script>
+    $(document).ready(function(){
+        $("#frm").bValidator();
+    })
+    </script>
+
+<script src="min.js/cycle.min.js"></script>
+<script src="min.js/main.js"></script>
+<!-- ************ bootstrap effect script ********** -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"></script>
+    
+</body>
+</html>
